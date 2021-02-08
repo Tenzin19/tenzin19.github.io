@@ -1,0 +1,118 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background: #DDD;
+  font-family: 'Open Sans', arial, sans-serif;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+h1 {
+
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+  background: #DDD; 
+  line-height: 0;
+}
+
+.contact {
+  width: 600px;
+  height: 530px;
+  background: #DDD;
+}
+
+.intro {
+  background: white;
+  padding: 10px
+}
+
+aside.right {
+  float: right;
+  padding: 10px;
+}
+
+aside.left {
+  float: left;
+  padding: 10px
+}
+
+aside.pad {
+  margin: 0 0 0 0;
+}
+
+.right img {
+  width: 400px;
+}
+
+.left img {
+  width: 400px;
+}
+
+.pad img {
+  border-radius: 10px 10px 0 0;
+  width: 600px;
+}
+
+.pad iframe {
+  border-radius: 0 0 10px 10px;
+  width: 600px;
+  height: 400px;
+}
+
+aside.head {
+  margin: 20px 0 10px 0;
+}
+
+
+
